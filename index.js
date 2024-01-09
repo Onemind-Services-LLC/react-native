@@ -433,6 +433,9 @@ module.exports = {
         'LogBox is enabled by default so there is no need to call unstable_enableLogBox() anymore. This is a no op and will be removed in the next version.',
       );
   },
+
+
+  //commented since  Prop Types issues are coming
   // Deprecated Prop Types
   // get ColorPropType(): $FlowFixMe {
   //   invariant(
@@ -463,7 +466,7 @@ module.exports = {
   //   );
   // },
 
-  // Deprecated Prop Types
+  // Deprecated Prop Types added to work with new react native version
 get ColorPropType(): $FlowFixMe {
   return require('deprecated-react-native-prop-types').ColorPropType;
 },
