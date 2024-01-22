@@ -434,7 +434,7 @@ module.exports = {
       );
   },
 
- //commented since  Prop Types issues are coming
+ //commented since  Prop Types issues are coming v0.70.9.1
   // Deprecated Prop Types
   // get ColorPropType(): $FlowFixMe {
   //   invariant(
